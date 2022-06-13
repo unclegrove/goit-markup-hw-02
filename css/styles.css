@@ -1,0 +1,114 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575; 
+    --additional-text-color: #2196F3;
+    --white-tex-color: #FFFFFF;
+}             
+                    
+                    
+                    /* !!! index.html !!! */
+.bodypage {
+    background-color: var(--white-tex-color);
+}
+ul {
+    list-style: none;
+}
+
+                    /* Header */
+.header-logo {
+    color: #000000;
+}
+.header-word {
+    color: var(--additional-text-color);
+}
+.header-navigation a {
+    color: var(--primary-text-color);
+}
+.header-navigation a:hover,
+.header-navigation a:focus {
+    color: var(--additional-text-color);
+}
+
+.header-navigation a.current {
+    color: var(--additional-text-color);
+}
+
+.header-navigation .current {
+    color: var(--additional-text-color);
+}
+.header-navigation.current {
+    color: var(--additional-text-color);
+}
+.header-auth a {
+    color: var(--secondary-text-color);
+}
+.header-auth a:hover,
+.header-auth a:focus {
+    color: var(--additional-text-color);
+}
+
+                    /* Main */
+/* Main: Hero */
+.btn-primary {
+    color: var(--white-tex-color);
+    background-color: var(--additional-text-color);
+}
+
+/* Main: Specification */
+.section-tittle {
+    color: var(--primary-text-color);
+}
+.specification-list .tittle {
+    color: var(--primary-text-color);
+}
+.specification-list .paragraph {
+    color: var(--secondary-text-color);
+}
+
+/* Main: What we do */
+.section-tittle {
+    color: var(--primary-text-color);
+}
+
+/* Main: our team */
+.section.background {
+    background-color: #F5F4FA;
+}
+.team-list .tittle {
+    color: var(--primary-text-color);
+}
+.team-list .paragraph {
+    color: var(--secondary-text-color);
+}
+
+                    /* Footer */
+.footer-background {
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: var(--additional-text-color);
+}
+.footer-word {
+    color: var(--white-tex-color)
+}
+.footer-list .adress {
+    color: var(--white-tex-color);
+}
+.footer-list .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+                    /* !!! portfolio.html !!! */
+                    /* Header ✅ DONE */
+                        
+                    /* Main */
+.btn-secondary {
+    background-color: #F5F4FA;
+}
+.features-list .tittle {
+    color: var(--primary-text-color);
+}
+.features-list .paragraph {
+    color: var(--secondary-text-color);
+}
