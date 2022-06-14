@@ -86,6 +86,7 @@ ul {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 
@@ -189,6 +190,7 @@ ul {
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
