@@ -9,6 +9,7 @@
                     /* !!! index.html !!! */
 .bodypage {
     background-color: var(--white-tex-color);
+    font-family: Roboto, sans-serif;
 }
 ul {
     list-style: none;
@@ -17,12 +18,23 @@ ul {
                     /* Header */
 .header-logo {
     color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .header-word {
     color: var(--additional-text-color);
 }
 .header-navigation a {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .header-navigation a:hover,
 .header-navigation a:focus {
@@ -41,6 +53,11 @@ ul {
 }
 .header-auth a {
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .header-auth a:hover,
 .header-auth a:focus {
@@ -49,10 +66,28 @@ ul {
 
                     /* Main */
 /* Main: Hero */
+.hero {
+    color: var(--white-tex-color);
+    background-color: #2F303A;
+}
+.hero-tittle {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 .btn-primary {
     color: var(--white-tex-color);
     background-color: var(--additional-text-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
+
 
 /* Main: Specification */
 .section-tittle {
@@ -60,14 +95,28 @@ ul {
 }
 .specification-list .tittle {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .specification-list .paragraph {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 /* Main: What we do */
 .section-tittle {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Main: our team */
@@ -76,9 +125,19 @@ ul {
 }
 .team-list .tittle {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-list .paragraph {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
                     /* Footer */
@@ -87,15 +146,33 @@ ul {
 }
 .footer-logo {
     color: var(--additional-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .footer-word {
     color: var(--white-tex-color)
 }
 .footer-list .adress {
     color: var(--white-tex-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .footer-list .link {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 
@@ -104,11 +181,32 @@ ul {
                         
                     /* Main */
 .btn-secondary {
+    color: var(--primary-text-color);
     background-color: #F5F4FA;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: var(--white-tex-color);
+    background-color: var(--additional-text-color);
+}
+
 .features-list .tittle {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .features-list .paragraph {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
