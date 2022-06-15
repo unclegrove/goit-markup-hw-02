@@ -176,6 +176,10 @@ ul {
     text-decoration: none;
 }
 
+.footer-list a:hover, 
+.footer-list a:focus {
+    color: var(--additional-text-color);
+}
 
                     /* !!! portfolio.html !!! */
                     /* Header ✅ DONE */
