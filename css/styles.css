@@ -146,7 +146,7 @@ ul {
     background-color: #2F303A;
 }
 .footer-logo {
-    color: var(--additional-text-color);
+    color: var(--white-tex-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -155,7 +155,7 @@ ul {
     text-decoration: none;
 }
 .footer-word {
-    color: var(--white-tex-color)
+    color: var(--additional-text-color)
 }
 .footer-list .adress {
     color: var(--white-tex-color);
